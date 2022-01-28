@@ -96,3 +96,34 @@ body {
     z-index: -1;
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+
+.about_pic {
+    margin: 32px 65px 32px 16px;
+}
+
+.about_info {
+    max-width: 475px;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #212353;
+    margin-bottom: 40px;
+}
+
+.about_desc {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+}
