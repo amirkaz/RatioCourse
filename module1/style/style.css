@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:first-child {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link:active {
@@ -55,13 +55,12 @@ body {
 }
 
 .intro_title {
-    font-style: Bold;
     font-size: 80px;
     line-height: 88px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 50px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     color: #212353;
 }
 
@@ -127,3 +126,108 @@ body {
     line-height: 29px;
     color: #4B5D68;
 }
+
+
+.features_info {
+    max-width: 584px;
+    margin: auto;
+    text-align: center;
+}
+
+.features_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.features_desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.features_cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -22px;
+}
+
+
+.features_card {
+    max-width: 531px;
+    display: flex;
+    position: relative;
+    margin: 22px;
+}
+
+.features_bg-pic1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+.features_card-vector {
+    position: absolute;
+    z-index: -1;
+    right: 11px;
+    top: 15px;
+}
+
+.features_card-ellipse {
+    position: absolute;
+    z-index: -1;
+    right: 7em;
+    top: 2.7em;
+}
+
+.features_card-pic {
+    margin: 74px 30px 74px 0;
+}
+
+.features_card-info {
+    margin: 49px 49px 33px 0;
+}
+
+.features_card-title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.features_card-desc {
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.features_card-link {
+    display: inline-block;
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    text-decoration: none;
+    background: url(../img/arrow.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.features_card-link:hover, .features_card-link:focus {
+    background: url(../img/arrow.svg) no-repeat right center;
+    color: #212353;
+    text-decoration: none;
+}
+
+
