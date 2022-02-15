@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+/*  не указана мин ширина для страницы, не заданы дефолтные font-weight, line-height и font-size для шрифтов  */
 }
 
 .container {
@@ -85,6 +86,7 @@ body {
     padding: 18px 37px;
     text-decoration: none;
     background-color: #9C69E2;
+    /* лишний отступ ниже */
     color: #FFFFFF;
 
 }
@@ -184,6 +186,7 @@ body {
 }
 
 .features_bg-pic1 {
+    /* шокткад  background: url(../img/features-bg-pic1.png) no-repeat right;  */
     background: url(../img/features-bg-pic1.png) no-repeat;
     background-position: right;
 }
@@ -218,7 +221,9 @@ body {
 .features_card-title {
     font-weight: 300;
     font-size: 24px;
+    /*  line-height в %, процент берётся от текущего размера шрифта, а вовсе не от line-height родителя. */
     line-height: 130%;
+    /* цвета надо выносить в переменные */
     color: #212353;
     margin-top: 0;
     margin-bottom: 20px;
